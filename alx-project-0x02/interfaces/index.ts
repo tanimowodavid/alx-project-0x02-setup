@@ -4,7 +4,7 @@ export interface CardProps {
 }
 
 export interface PostProps extends CardProps {
-  userID: number;
+  userId: number;
 }
 
 export interface ButtonProps {

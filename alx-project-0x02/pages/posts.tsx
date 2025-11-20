@@ -14,10 +14,10 @@ const Posts = ({ posts }: PostsPageProps) => {
 
       {posts.map((post) => (
         <PostCard
-          key={post.userID}
+          key={post.userId}
           title={post.title}
           content={post.content}
-          userID={post.userID}
+          userId={post.userId}
         />
       ))}
     </div>

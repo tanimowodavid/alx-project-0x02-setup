@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 import clsx from "clsx";
 
 export default function Botton({ size, shape }: ButtonProps) {
